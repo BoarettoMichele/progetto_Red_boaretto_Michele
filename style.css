@@ -1,8 +1,15 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Nova Square', cursive;
+    color:darkred ;
+
 }
+
+
+
+
 *{
     font-family: 'Rajdhani', sans-serif;
+
 }
 head, body{
     margin: 0px;
@@ -16,7 +23,7 @@ head, body{
     width: 165px;
     height: 100px;
 }
-.bgimg{
+.bg-img{
     position: relative;
     background-size: cover;
     background-position: center;
@@ -24,7 +31,7 @@ head, body{
     height: 100vh;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(/Red/media/switzerland-862870_1920.jpg);
 }
-.fontsize{
+.font-size{
     font-size: 100px;
 }
 
@@ -79,3 +86,28 @@ i{
     width: 200px;
 
 }
+.pallino-left{
+    border: 2px solid darkred;
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: -9px;
+}
+.bordino-left{
+    border-left: solid 3px darkred;
+    position: relative;
+    width: 50vw;
+}
+.bg-img3{
+    background-image: url(/Red/media/single.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 70vh;
+    position: relative;
+    height: 100vh;
+}
+
+
